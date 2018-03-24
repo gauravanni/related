@@ -1,4 +1,4 @@
-const chemistryTableInitialStr = '<table class="topicListBox innerPage"><tbody><tr><td class="headingBox" style="text-align: center; padding: 10px;" colspan="2"><b><a href="https://byjus.com/chemistry/chemistry-article/">More Chemistry Articles</a></b></td></tr>';
+const chemistryTableInitialStr = '<table class="topicListBox innerPage"><tbody><tr><td class="headingBox" style="text-align: center; padding: 10px;" colspan="2"><b>More RS Aggarwal Solutions</b></td></tr>';
 const chemistryTableFinalStr = '</tbody></table>';
 const chemistryTabledummyStr = '<td class="contentBox" style="text-align: center;"><a href="%link%">%title%</a></td>';
 
