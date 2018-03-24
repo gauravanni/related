@@ -9,6 +9,8 @@ String.prototype.replaceAll = function (search, replacement) {
 
 const Item = require(process.cwd() + '/models/keyword.js');
 
+
+
 exports.showRelatedLinks=function(req,res){
     try {
         var jumpValue = 4;
@@ -79,6 +81,8 @@ exports.showRelatedLinks=function(req,res){
         })
     }
 }
+
+
 
 
 function findIndexOf(url, items) {

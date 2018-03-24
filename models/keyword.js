@@ -22,4 +22,4 @@ var KeywordSchema= new Schema({
   }
 });
 
-module.exports=mongoose.model('Keyword',KeywordSchema);
+module.exports=mongoose.model('Item',KeywordSchema);

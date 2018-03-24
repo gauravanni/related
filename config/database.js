@@ -1,2 +1,2 @@
 // database name
-exports.connectUrl=process.env.MONGODB_URI || 'mongodb://root:root@ds123129.mlab.com:23129/items';
+exports.connectUrl=process.env.MONGODB_URI || 'mongodb://leadodev:Leado2016@byjus-leado-v1-shard-00-00-6nq5s.mongodb.net:27017,byjus-leado-v1-shard-00-01-6nq5s.mongodb.net:27017,byjus-leado-v1-shard-00-02-6nq5s.mongodb.net:27017/byjusleado?ssl=true&replicaSet=byjus-leado-v1-shard-0&authSource=admin';

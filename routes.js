@@ -7,5 +7,4 @@ exports.init = function(router) {
     router.route("/rsAggarwalWidget").post(postsController.showRelatedLinks);
 
 
-    
 };
