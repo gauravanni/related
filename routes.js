@@ -2,6 +2,8 @@ var postsController=require(process.cwd() + '/controllers/rsAggarwalController.j
 
 var rdSharmaController=require(process.cwd() + '/controllers/rdSharmaController.js');
 
+var ncertController=require(process.cwd() + '/controllers/ncertController.js');
+
 exports.init = function(router) {
     router.route('/').get((req, res) => {
         res.send('Related Links');
@@ -10,6 +12,8 @@ exports.init = function(router) {
     router.route("/rsAggarwalWidget").post(postsController.showRelatedLinks);
 
     router.route("/rdSharmaWidget").post(rdSharmaController.showRDShamraWidget);
+
+    router.route('/ncertSolutions').post(ncertController.showNcertWidget);
 
 
 
